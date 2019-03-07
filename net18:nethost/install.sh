@@ -2,7 +2,8 @@
 #cp /opt/docker/krb5.keytab /etc/krb5.keytab
 
 echo "roberto@ edt m11 asix curs 2018-2019" > /var/www/html/index.html
-
+echo "BEnvingut al vsftpd " > /var/ftp/hola.pdf
+echo "BEnvingut al vsftpd " > /var/ftp/pub/info.pdf
 cp /opt/docker/chargen-dgram /etc/xinetd.d/
 cp /opt/docker/echo-bis /etc/xinetd.d/
 cp /opt/docker/httpd-bis /etc/xinetd.d/
